@@ -36,13 +36,27 @@ module "kms" {
 }
 ```
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- BEGIN_TF_DOCS -->
+Copyright 2023 NephoSolutions srl, Sebastian Trebitz
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
 ## Requirements
 
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
-| <a name="requirement_google"></a> [google](#requirement\_google) | >= 3.53, < 5.0 |
+| <a name="requirement_google"></a> [google](#requirement\_google) | >= 3.53, < 6.0 |
 
 ## Providers
 
@@ -90,4 +104,4 @@ No resources.
 | <a name="output_keyring_name"></a> [keyring\_name](#output\_keyring\_name) | The resource name for the KeyRing. |
 | <a name="output_location"></a> [location](#output\_location) | The location of the KeyRing. |
 | <a name="output_project"></a> [project](#output\_project) | The ID of the project in which the keyring belongs. |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- END_TF_DOCS -->
